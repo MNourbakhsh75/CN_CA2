@@ -1,0 +1,67 @@
+[30/Mar/2019:14:27:38] Proxy launched
+[30/Mar/2019:14:27:38] Creating server socket...
+[30/Mar/2019:14:27:38] Binding socket to port 4044
+[30/Mar/2019:14:27:38] Listening for incoming requests...
+
+[30/Mar/2019:14:27:46] Accepted a request from client!
+[30/Mar/2019:14:27:46] connect to [127.0.0.1] from localhost [127.0.0.1] 61410
+
+[30/Mar/2019:14:27:46] Client sent request to proxy with headers:
+
+[30/Mar/2019:14:27:46] 
+----------------------------------------------------------------------
+GET http://bdood.ir/ HTTP/1.1
+cache-control: no-cache
+Postman-Token: 387df84f-4eed-4c21-9e55-5552379e379f
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: bdood.ir
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[30/Mar/2019:14:27:46] Proxy opening connection to server bdood.ir
+[30/Mar/2019:14:27:46] Proxy sent request to server with headers:
+
+[30/Mar/2019:14:27:46] 
+----------------------------------------------------------------------
+GET / HTTP/1.0
+cache-control: no-cache
+Postman-Token: 387df84f-4eed-4c21-9e55-5552379e379f
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: bdood.ir
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[30/Mar/2019:14:27:46] Server sent response to proxy with headers:
+
+[30/Mar/2019:14:27:46] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sun, 10 Mar 2019 11:12:31 GMT
+Accept-Ranges: bytes
+ETag: "8039672732d7d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sat, 30 Mar 2019 09:58:29 GMT
+Connection: keep-alive
+Content-Length: 41666
+
+----------------------------------------------------------------------
+[30/Mar/2019:14:27:46] Proxy sent response to client with headers:
+
+[30/Mar/2019:14:27:46] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sun, 10 Mar 2019 11:12:31 GMT
+Accept-Ranges: bytes
+ETag: "8039672732d7d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sat, 30 Mar 2019 09:58:29 GMT
+Connection: keep-alive
+Content-Length: 41666
+
+----------------------------------------------------------------------
