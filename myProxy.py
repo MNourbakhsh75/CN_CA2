@@ -36,9 +36,6 @@ def launch():
         threads.append(d)
         d.start()
         
-    # [thread.join() for thread in threads]
-    # print ("ff")
-    
     mySocket.close()
 
 
@@ -85,7 +82,14 @@ def findHeader(data):
     header = data[0:index]
     return header
 
-
+def changeUserAgent(req):
+    newReq = req
+    if config.privacy_enable:
+        baseIndex = req.find(b'User-Agent: ') + 12
+        offsetIndex = req[baseIndex:len(req)-1].find(b'\r\n')
+        agent = config.privacy_userAgent.encode('utf-8')
+        newReq = req.replace(req[baseIndex:baseIndex+offsetIndex],agent,1)
+    return newReq
 
 def writeToFile(data):
     # while global_lock.locked():
@@ -106,10 +110,11 @@ def routine(conn,addr):
     file_contents.append(logMessage.connectFromLocalHost + str(addr[1]) + '\n') #1
     request = conn.recv(999999)
     file_contents.append(logMessage.clientHeader) #2
-    file_contents.append(request.decode('utf-8')) #3
+    file_contents.append(request.decode('utf-8'))  #3
     request = request.replace(b'HTTP/1.1',b'HTTP/1.0')
-    # request = removeProxyConnection(request)
     request = removePath(request)
+    # request = removeProxyConnection(request)
+    request = changeUserAgent(request)
     print("request : \n",request)
 
     hostName = getHostName(request)
