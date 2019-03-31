@@ -7,7 +7,7 @@ import config
 import log
 import Message
 import json
-
+import sendMail
 
 global_lock = threading.RLock()
 
@@ -115,10 +115,12 @@ def checkForRestriction(host):
             
     return block,notify
 
-# def sendMailToAdmin():
-
-
-
+def sendMailToAdmin(req):
+    host = getHostName(req)
+    msg = Message.accessToBlockSite.encode() + host + b':\r\n' + req
+    # print(msg)
+    mail = sendMail.sendMail()
+    mail.send(msg)
 def routine(conn,addr):
 
     file_contents = []
@@ -126,7 +128,7 @@ def routine(conn,addr):
     file_contents.append(Message.connectFromLocalHost + str(addr[1]) + '\n') #1
     request = conn.recv(999999)
     file_contents.append(Message.clientHeader) #2
-    file_contents.append(request.decode('utf-8'))  #3
+    file_contents.append(request.decode())  #3
     request = request.replace(b'HTTP/1.1',b'HTTP/1.0')
     request = removePath(request)
     # request = removeProxyConnection(request)
@@ -139,9 +141,9 @@ def routine(conn,addr):
         block,notify = checkForRestriction(hostName)
         if block:
             conn.send(Message.blockSiteResp)
-            log.log(Message.accessToBlockSite+hostName.decode('utf-8'))
-            # if notify:
-            #     sendMailToAdmin()
+            log.log(Message.accessToBlockSite+hostName.decode())
+            if notify:
+                sendMailToAdmin(request)
             conn.close()
             sys.exit(1)
 
@@ -149,10 +151,10 @@ def routine(conn,addr):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((hostName, 80))
-        file_contents.append(Message.openConnection+hostName.decode('utf-8')) #4
+        file_contents.append(Message.openConnection+hostName.decode()) #4
         s.sendall(request)
         file_contents.append(Message.proxySendReq) #5
-        file_contents.append(request.decode('utf-8')) #6
+        file_contents.append(request.decode()) #6
         while 1:
             data = s.recv(999999)
             if (len(data) > 0):
@@ -160,9 +162,9 @@ def routine(conn,addr):
                 if isFirst:
                     file_contents.append(Message.serverSendResp) #7
                     header = findHeader(data)
-                    file_contents.append(header.decode('utf-8')) #8
+                    file_contents.append(header.decode()) #8
                     file_contents.append(Message.proxySendResp) #9
-                    file_contents.append(header.decode('utf-8')) #10
+                    file_contents.append(header.decode()) #10
                     writeToFile(file_contents)
                     isFirst = False
             else:

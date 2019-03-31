@@ -1,6 +1,3063 @@
-[30/Mar/2019:22:58:25] Proxy launched
-[30/Mar/2019:22:58:25] Creating server socket...
-[30/Mar/2019:22:58:25] Binding socket to port 4044
-[30/Mar/2019:22:58:25] Listening for incoming requests...
+[31/Mar/2019:21:52:08] Proxy launched
+[31/Mar/2019:21:52:08] Creating server socket...
+[31/Mar/2019:21:52:08] Binding socket to port 4044
+[31/Mar/2019:21:52:08] Listening for incoming requests...
 
-[30/Mar/2019:22:58:35] Client try to access a block site sib.ir
+[31/Mar/2019:21:52:14] Accepted a request from client!
+[31/Mar/2019:21:52:14] connect to [127.0.0.1] from localhost [127.0.0.1] 52261
+
+[31/Mar/2019:21:52:14] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:14] 
+----------------------------------------------------------------------
+GET http://bdood.ir/ HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:14] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:14] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:14] 
+----------------------------------------------------------------------
+GET / HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:14] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:14] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sun, 10 Mar 2019 11:12:31 GMT
+Accept-Ranges: bytes
+ETag: "8039672732d7d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 41666
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:14] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:14] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Sun, 10 Mar 2019 11:12:31 GMT
+Accept-Ranges: bytes
+ETag: "8039672732d7d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 41666
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52264
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/font-awesome.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/font-awesome.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 34430
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 34430
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52267
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/mailform.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/mailform.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 39148
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 39148
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52265
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/owl-carousel.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/owl-carousel.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 5080
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 5080
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52272
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/jquery.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /js/jquery.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 07:02:58 GMT
+Accept-Ranges: bytes
+ETag: "07d8d4f1d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 95790
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 07:02:58 GMT
+Accept-Ranges: bytes
+ETag: "07d8d4f1d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 95790
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52266
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/google-map.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/google-map.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 438
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 438
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52263
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/grid.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/grid.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 9870
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 9870
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52269
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/style.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/style.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Wed, 03 Oct 2018 05:42:06 GMT
+Accept-Ranges: bytes
+ETag: "0cb83d1db5ad41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 68367
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Wed, 03 Oct 2018 05:42:06 GMT
+Accept-Ranges: bytes
+ETag: "0cb83d1db5ad41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 68367
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52274
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/script.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /js/script.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 05 Mar 2019 13:48:32 GMT
+Accept-Ranges: bytes
+ETag: "5bcf6f1f5ad3d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 11927
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 05 Mar 2019 13:48:32 GMT
+Accept-Ranges: bytes
+ETag: "5bcf6f1f5ad3d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 11927
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52273
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/device.min.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /js/device.min.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 07:02:59 GMT
+Accept-Ranges: bytes
+ETag: "801326501d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 3856
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 07:02:59 GMT
+Accept-Ranges: bytes
+ETag: "801326501d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 3856
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52270
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/rtl.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/rtl.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Sat, 05 Jan 2019 13:59:17 GMT
+Accept-Ranges: bytes
+ETag: "80a81d9fea4d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 22066
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Sat, 05 Jan 2019 13:59:17 GMT
+Accept-Ranges: bytes
+ETag: "80a81d9fea4d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 22066
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52271
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/jquery-migrate-1.2.1.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /js/jquery-migrate-1.2.1.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Sun, 30 Sep 2018 11:15:30 GMT
+Accept-Ranges: bytes
+ETag: "0b596e5ae58d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 16623
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Sun, 30 Sep 2018 11:15:30 GMT
+Accept-Ranges: bytes
+ETag: "0b596e5ae58d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 16623
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Accepted a request from client!
+[31/Mar/2019:21:52:15] connect to [127.0.0.1] from localhost [127.0.0.1] 52268
+
+[31/Mar/2019:21:52:15] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/touch-touch.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:52:15] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+GET /css/touch-touch.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 3090
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:52:15] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:52:15] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:22:57 GMT
+Connection: keep-alive
+Content-Length: 3090
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Client try to access a block site sib.ir
+[31/Mar/2019:21:54:17] Accepted a request from client!
+[31/Mar/2019:21:54:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52340
+
+[31/Mar/2019:21:54:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css HTTP/1.1
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy opening connection to server maxcdn.bootstrapcdn.com
+[31/Mar/2019:21:54:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET /font-awesome/4.4.0/css/font-awesome.min.css HTTP/1.0
+Host: maxcdn.bootstrapcdn.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Date: Sun, 31 Mar 2019 17:24:14 GMT
+Connection: Keep-Alive
+Accept-Ranges: bytes
+ETag: "1544639719"
+Content-Encoding: gzip
+Content-Length: 6079
+Content-Type: text/css; charset=utf-8
+Last-Modified: Wed, 12 Dec 2018 18:35:19 GMT
+X-Hello-Human: Say hello back! @getBootstrapCDN on Twitter
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+X-Cache: HIT
+timing-allow-origin: *
+cache-control: public, max-age=31536000
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Date: Sun, 31 Mar 2019 17:24:14 GMT
+Connection: Keep-Alive
+Accept-Ranges: bytes
+ETag: "1544639719"
+Content-Encoding: gzip
+Content-Length: 6079
+Content-Type: text/css; charset=utf-8
+Last-Modified: Wed, 12 Dec 2018 18:35:19 GMT
+X-Hello-Human: Say hello back! @getBootstrapCDN on Twitter
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+X-Cache: HIT
+timing-allow-origin: *
+cache-control: public, max-age=31536000
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Accepted a request from client!
+[31/Mar/2019:21:54:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52343
+
+[31/Mar/2019:21:54:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/fontiran.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET /css/fontiran.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Wed, 26 Sep 2018 05:52:04 GMT
+Accept-Ranges: bytes
+ETag: "01afd5d55d41:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 950
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Wed, 26 Sep 2018 05:52:04 GMT
+Accept-Ranges: bytes
+ETag: "01afd5d55d41:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 950
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Accepted a request from client!
+[31/Mar/2019:21:54:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52344
+
+[31/Mar/2019:21:54:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET http://bdood.ir/css/animate.css HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET /css/animate.css HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 4620
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Tue, 04 Sep 2018 07:03:14 GMT
+Accept-Ranges: bytes
+ETag: "0e516591d44d41:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 4620
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Accepted a request from client!
+[31/Mar/2019:21:54:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52350
+
+[31/Mar/2019:21:54:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/DL/directDownload.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET /images/DL/directDownload.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Mon, 22 Oct 2018 06:09:01 GMT
+Accept-Ranges: bytes
+ETag: "807cfab9cd69d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 530
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Mon, 22 Oct 2018 06:09:01 GMT
+Accept-Ranges: bytes
+ETag: "807cfab9cd69d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 530
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Accepted a request from client!
+[31/Mar/2019:21:54:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52351
+
+[31/Mar/2019:21:54:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/D-03-1.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+GET /images/D-03-1.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:35:26 GMT
+Accept-Ranges: bytes
+ETag: "04bab673f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1917
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:35:26 GMT
+Accept-Ranges: bytes
+ETag: "04bab673f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1917
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52353
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/parkingsLocationButton.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/parkingsLocationButton.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 21 Nov 2018 12:53:40 GMT
+Accept-Ranges: bytes
+ETag: "062c8399981d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 6824
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 21 Nov 2018 12:53:40 GMT
+Accept-Ranges: bytes
+ETag: "062c8399981d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 6824
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52349
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/D-02-1.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/D-02-1.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:35:26 GMT
+Accept-Ranges: bytes
+ETag: "04bab673f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1842
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:35:26 GMT
+Accept-Ranges: bytes
+ETag: "04bab673f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1842
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52358
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/bike.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/bike.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:23:06 GMT
+Accept-Ranges: bytes
+ETag: "059e6868a6fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 29454
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:23:06 GMT
+Accept-Ranges: bytes
+ETag: "059e6868a6fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 29454
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52355
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/DL/sibapp.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/DL/sibapp.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Mon, 22 Oct 2018 06:02:00 GMT
+Accept-Ranges: bytes
+ETag: "0fcabfcc69d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1118
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Mon, 22 Oct 2018 06:02:00 GMT
+Accept-Ranges: bytes
+ETag: "0fcabfcc69d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1118
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52356
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/DL/bazar.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/DL/bazar.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Mon, 22 Oct 2018 06:01:54 GMT
+Accept-Ranges: bytes
+ETag: "07577bbcc69d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 801
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Mon, 22 Oct 2018 06:01:54 GMT
+Accept-Ranges: bytes
+ETag: "07577bbcc69d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 801
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52354
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/slider.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/slider.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:33:42 GMT
+Accept-Ranges: bytes
+ETag: "027ae293f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 39134
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:33:42 GMT
+Accept-Ranges: bytes
+ETag: "027ae293f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 39134
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52352
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/Anardoni-Badge-White-Persian.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/Anardoni-Badge-White-Persian.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Tue, 11 Dec 2018 20:22:30 GMT
+Accept-Ranges: bytes
+ETag: "047933d8f91d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 21562
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Tue, 11 Dec 2018 20:22:30 GMT
+Accept-Ranges: bytes
+ETag: "047933d8f91d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 21562
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52357
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/sol-and-poll-1.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/sol-and-poll-1.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 03 Oct 2018 13:36:07 GMT
+Accept-Ranges: bytes
+ETag: "80fdab91e5bd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 68734
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 03 Oct 2018 13:36:07 GMT
+Accept-Ranges: bytes
+ETag: "80fdab91e5bd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 68734
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52364
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/jquery.easing.1.3.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/jquery.easing.1.3.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:00:24 GMT
+Accept-Ranges: bytes
+ETag: "05c87552544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 8101
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:00:24 GMT
+Accept-Ranges: bytes
+ETag: "05c87552544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 8101
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52361
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server detectportal.firefox.com
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /success.txt HTTP/1.0
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: A5PvV6WavKvmwXPnAVHSSImmi4_dGnkskcH0AOhBlnfO_TDy_J8AFQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Sun, 31 Mar 2019 17:24:14 GMT
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: A5PvV6WavKvmwXPnAVHSSImmi4_dGnkskcH0AOhBlnfO_TDy_J8AFQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Sun, 31 Mar 2019 17:24:14 GMT
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52372
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/wow.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/wow.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:02:38 GMT
+Accept-Ranges: bytes
+ETag: "02366a52544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 11547
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:02:38 GMT
+Accept-Ranges: bytes
+ETag: "02366a52544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 11547
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52363
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/jquery.cookie.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/jquery.cookie.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:00:14 GMT
+Accept-Ranges: bytes
+ETag: "07b914f2544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 3714
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:00:14 GMT
+Accept-Ranges: bytes
+ETag: "07b914f2544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 3714
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52370
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/jquery.rd-navbar.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/jquery.rd-navbar.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:02:02 GMT
+Accept-Ranges: bytes
+ETag: "0f9f08f2544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 9629
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:02:02 GMT
+Accept-Ranges: bytes
+ETag: "0f9f08f2544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 9629
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52366
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/jquery.ui.totop.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/jquery.ui.totop.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:13 GMT
+Accept-Ranges: bytes
+ETag: "802abc722544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1219
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:13 GMT
+Accept-Ranges: bytes
+ETag: "802abc722544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1219
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52368
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/jquery.rd-parallax.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/jquery.rd-parallax.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:37 GMT
+Accept-Ranges: bytes
+ETag: "8046a812544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 9060
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:37 GMT
+Accept-Ranges: bytes
+ETag: "8046a812544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 9060
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52376
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/01.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/01.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Sun, 11 Nov 2018 06:23:56 GMT
+Accept-Ranges: bytes
+ETag: "0a6b31f8779d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 15884
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Sun, 11 Nov 2018 06:23:56 GMT
+Accept-Ranges: bytes
+ETag: "0a6b31f8779d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 15884
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52379
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/2.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/2.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:16:55 GMT
+Accept-Ranges: bytes
+ETag: "803dc4a9896fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 32455
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:16:55 GMT
+Accept-Ranges: bytes
+ETag: "803dc4a9896fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 32455
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52365
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/tmstickup.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/tmstickup.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:00:55 GMT
+Accept-Ranges: bytes
+ETag: "80951682544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1969
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:00:55 GMT
+Accept-Ranges: bytes
+ETag: "80951682544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1969
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52369
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/superfish.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/superfish.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:49 GMT
+Accept-Ranges: bytes
+ETag: "805431882544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 11341
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:49 GMT
+Accept-Ranges: bytes
+ETag: "805431882544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 11341
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52378
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/02.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/02.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Sat, 03 Nov 2018 06:19:27 GMT
+Accept-Ranges: bytes
+ETag: "8081f2c3d73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 158895
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Sat, 03 Nov 2018 06:19:27 GMT
+Accept-Ranges: bytes
+ETag: "8081f2c3d73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 158895
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52377
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/1.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/1.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:17:32 GMT
+Accept-Ranges: bytes
+ETag: "0fed1bf896fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 29325
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:17:32 GMT
+Accept-Ranges: bytes
+ETag: "0fed1bf896fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 29325
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52383
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/fonts/iranYekan/woff2/iranyekanwebregular.woff2 HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /fonts/iranYekan/woff2/iranyekanwebregular.woff2 HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1245
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 1245
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52381
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/03.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/03.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Sat, 03 Nov 2018 06:14:53 GMT
+Accept-Ranges: bytes
+ETag: "806cbe883c73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 19029
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Sat, 03 Nov 2018 06:14:53 GMT
+Accept-Ranges: bytes
+ETag: "806cbe883c73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 19029
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52373
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/persianNum.jquery.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/persianNum.jquery.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Sat, 29 Dec 2018 10:36:16 GMT
+Accept-Ranges: bytes
+ETag: "050ac53629fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 4419
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Sat, 29 Dec 2018 10:36:16 GMT
+Accept-Ranges: bytes
+ETag: "050ac53629fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 4419
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52382
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/3.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /images/3.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:17:55 GMT
+Accept-Ranges: bytes
+ETag: "808387cd896fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 35316
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:17:55 GMT
+Accept-Ranges: bytes
+ETag: "808387cd896fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 35316
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52367
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/js/owl.carousel.min.js HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /js/owl.carousel.min.js HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:26 GMT
+Accept-Ranges: bytes
+ETag: "0cf7b7a2544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 49715
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Last-Modified: Tue, 04 Sep 2018 08:01:26 GMT
+Accept-Ranges: bytes
+ETag: "0cf7b7a2544d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:25:00 GMT
+Connection: keep-alive
+Content-Length: 49715
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Accepted a request from client!
+[31/Mar/2019:21:54:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52385
+
+[31/Mar/2019:21:54:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+Origin: http://bdood.ir
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy opening connection to server maxcdn.bootstrapcdn.com
+[31/Mar/2019:21:54:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+GET /font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.0
+Host: maxcdn.bootstrapcdn.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+Origin: http://bdood.ir
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sun, 31 Mar 2019 17:24:15 GMT
+Connection: Keep-Alive
+Accept-Ranges: bytes
+ETag: "1544639778"
+Expires: Mon, 30 Mar 2020 17:24:15 GMT
+Content-Length: 64464
+Content-Type: font/woff2
+Last-Modified: Wed, 12 Dec 2018 18:36:18 GMT
+X-Hello-Human: Say hello back! @getBootstrapCDN on Twitter
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+X-Cache: HIT
+timing-allow-origin: *
+cache-control: public, max-age=31536000
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:54:18] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:54:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sun, 31 Mar 2019 17:24:15 GMT
+Connection: Keep-Alive
+Accept-Ranges: bytes
+ETag: "1544639778"
+Expires: Mon, 30 Mar 2020 17:24:15 GMT
+Content-Length: 64464
+Content-Type: font/woff2
+Last-Modified: Wed, 12 Dec 2018 18:36:18 GMT
+X-Hello-Human: Say hello back! @getBootstrapCDN on Twitter
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+X-Cache: HIT
+timing-allow-origin: *
+cache-control: public, max-age=31536000
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Accepted a request from client!
+[31/Mar/2019:21:56:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52468
+
+[31/Mar/2019:21:56:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/star.svg HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:56:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+GET /images/star.svg HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:20:22 GMT
+Accept-Ranges: bytes
+ETag: "0ef25258a6fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:26:59 GMT
+Connection: keep-alive
+Content-Length: 688
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Mon, 29 Oct 2018 13:20:22 GMT
+Accept-Ranges: bytes
+ETag: "0ef25258a6fd41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:26:59 GMT
+Connection: keep-alive
+Content-Length: 688
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Accepted a request from client!
+[31/Mar/2019:21:56:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52466
+
+[31/Mar/2019:21:56:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/logo.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:56:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+GET /images/logo.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:35:26 GMT
+Accept-Ranges: bytes
+ETag: "04bab673f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:26:59 GMT
+Connection: keep-alive
+Content-Length: 5570
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:35:26 GMT
+Accept-Ranges: bytes
+ETag: "04bab673f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:26:59 GMT
+Connection: keep-alive
+Content-Length: 5570
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Accepted a request from client!
+[31/Mar/2019:21:56:17] connect to [127.0.0.1] from localhost [127.0.0.1] 52464
+
+[31/Mar/2019:21:56:17] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+GET http://bdood.ir/fonts/iranYekan/woff/iranyekanwebregular.woff HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:56:17] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+GET /fonts/iranYekan/woff/iranyekanwebregular.woff HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: font/x-woff
+Last-Modified: Tue, 25 Sep 2018 12:24:12 GMT
+Accept-Ranges: bytes
+ETag: "03e6daaca54d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:26:59 GMT
+Connection: keep-alive
+Content-Length: 20917
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:17] Proxy sent response to client with headers:
+
+[31/Mar/2019:21:56:17] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: font/x-woff
+Last-Modified: Tue, 25 Sep 2018 12:24:12 GMT
+Accept-Ranges: bytes
+ETag: "03e6daaca54d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:26:59 GMT
+Connection: keep-alive
+Content-Length: 20917
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:18] Accepted a request from client!
+[31/Mar/2019:21:56:18] connect to [127.0.0.1] from localhost [127.0.0.1] 52469
+
+[31/Mar/2019:21:56:18] Client sent request to proxy with headers:
+
+[31/Mar/2019:21:56:18] 
+----------------------------------------------------------------------
+GET http://bdood.ir/images/D-01-1.png HTTP/1.1
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:18] Proxy opening connection to server bdood.ir
+[31/Mar/2019:21:56:18] Proxy sent request to server with headers:
+
+[31/Mar/2019:21:56:18] 
+----------------------------------------------------------------------
+GET /images/D-01-1.png HTTP/1.0
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+[31/Mar/2019:21:56:18] Server sent response to proxy with headers:
+
+[31/Mar/2019:21:56:18] 
+----------------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: image/png
+Last-Modified: Sat, 03 Nov 2018 06:35:26 GMT
+Accept-Ranges: bytes
+ETag: "04bab673f73d41:0"
+Server: Microsoft-IIS/8.5
+Date: Sun, 31 Mar 2019 17:26:59 GMT
+Connection: keep-alive
+Content-Length: 1788
+
+----------------------------------------------------------------------
