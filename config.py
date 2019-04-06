@@ -5,6 +5,7 @@ with open('config.json') as json_file:
 
 PORT = data['port']
 MAXCON = 2
+# users = []
 logging_enable = data['logging']['enable']
 logging_logFile = data['logging']['logFile']
 caching_enable = data['caching']['enable']
@@ -16,3 +17,6 @@ restriction_targets = data['restriction']['targets']
 accounting_users = data['accounting']['users']
 HTTPInjection_enable = data['HTTPInjection']['enable']
 HTTPInjection_body = data['HTTPInjection']['post']['body']
+
+# for u in accounting_users:
+#     users.append(u) //80000000
