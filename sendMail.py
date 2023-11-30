@@ -34,19 +34,19 @@ class sendMail:
         # print(recv.decode())
     
     def login(self):
-        auth2 = b'AUTH PLAIN AGthemVtaS5hbGkAMTM3NC5BbGlr\r\n'
+        auth2 = b''
         self.conn.send(auth2)
         recv = self.conn.recv(CHUNK_SIZE)
         # print(recv.decode())
 
     def mailFrom(self):
-        mailFrom = b'MAIL FROM:<kazemi.ali@ut.ac.ir>\r\n'
+        mailFrom = b''
         self.conn.send(mailFrom)
         recv = self.conn.recv(CHUNK_SIZE)
         # print(recv.decode())
     
     def mailRecipient(self):
-        rcptTo = b'RCPT TO:<m.nourbakhsh75@hotmail.com>\r\n'
+        rcptTo = b''
         self.conn.send(rcptTo)
         recv = self.conn.recv(CHUNK_SIZE)
         # print(recv.decode())
